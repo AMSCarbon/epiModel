@@ -151,7 +151,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="epiModel.cpp" />
+    <ClCompile Include="DiseaseModel.cpp" />
+    <ClCompile Include="EpidemicModel.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="EvolutionModel.cpp" />
+    <ClCompile Include="IndividualModel.cpp" />
+    <ClCompile Include="PopulationDistributionModel.cpp" />
+    <ClCompile Include="transmissionModel.cpp" />
+    <ClCompile Include="UtilFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiseaseModel.h" />
+    <ClInclude Include="EpidemicModel.h" />
+    <ClInclude Include="EvolutionModel.h" />
+    <ClInclude Include="IndividualModel.h" />
+    <ClInclude Include="IndividualPair.h" />
+    <ClInclude Include="PopulationDistributionModel.h" />
+    <ClInclude Include="TransmissionModel.h" />
+    <ClInclude Include="UtilFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
